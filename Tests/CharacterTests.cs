@@ -55,6 +55,8 @@ public class CharacterTests : BaseTest
     }
 
     [Test]
+    
+    [AllureSeverity(SeverityLevel.critical)]
     public async Task GetCharacter_MortySmith_ReturnsCorrectData()
     {
         // Arrange
